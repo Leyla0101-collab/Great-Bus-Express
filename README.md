@@ -1,4 +1,4 @@
-# 🚌 Great Bus Express – C++ Bus Ticket Booking System
+# Great Bus Express – C++ Bus Ticket Booking System
 
 A C++ console-based Bus Ticket Booking System developed for the **CSC415 – Fundamentals of Computer Problem Solving** course.  
 This project simulates a real bus ticket reservation service, allowing users to select seats, choose travel time, pick destinations, and receive student discounts.
