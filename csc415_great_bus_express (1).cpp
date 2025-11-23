@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Function prototypes
 void displayTotalFee();
 float calculateTotalFee(char lCode);
 float applyDiscount(float fee, char discountCode);
@@ -183,8 +182,6 @@ int main()
 
         // Display total fee
         cout << "Total Fee: RM " << fixed << setprecision(2) << totalFee << endl;
-
-        // Generate receipt
         generateReceipt(name, email, to_string(seat), time, month, day, phoneNumber, gender, pax, age, totalFee, seatType, discountCode);
 
         cout << "ENJOY YOUR JOURNEY!" << endl;
@@ -281,7 +278,7 @@ void generateReceipt(string name, string email, string seat, string time, int mo
 {
     cout << endl;
     cout << "------------------------ Receipt ------------------------" << endl;
-    cout << "Name: " << name << endl; //full name
+    cout << "Name: " << name << endl; //name
     cout << "Email: " << email << endl;
     cout << "Phone Number: +60 " << phoneNumber << endl;
     cout << "Gender: " << gender << endl;
